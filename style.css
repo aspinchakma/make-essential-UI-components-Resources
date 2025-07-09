@@ -11,7 +11,7 @@
   text-align: center;
 }
 
-.btn {
+.btn_container button {
   color: rgb(255, 255, 255);
   font-family: Work Sans;
   font-size: 16px;
@@ -20,7 +20,7 @@
   letter-spacing: 0%;
   text-align: center;
   border-radius: 8px;
-  padding: 14px 22px;
+  padding: 12px 22px;
   background: rgb(82, 195, 3);
   border: 1px solid rgb(82, 195, 3);
   cursor: pointer;
@@ -83,4 +83,77 @@
   text-align: center;
   opacity: 0.7;
   margin-bottom: 20px;
+}
+
+/* Foods Section */
+.foods_container {
+  width: 68.75%;
+  margin: 30px auto 0px;
+}
+.foods_title {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.foods_container .foods_title p {
+  color: rgb(16, 16, 16);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+.foods_container .foods_title h2 {
+  color: rgb(16, 16, 16);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.foods {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+}
+.food {
+  text-align: center;
+}
+.food img {
+  width: 100%;
+}
+.food .food_name {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0%;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+  background: rgba(82, 195, 3, 0.15);
+  padding: 10px 22px;
+}
+.food h2 {
+  color: rgb(16, 16, 16);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0%;
+  margin-bottom: 14px;
+}
+.food .food_description {
+  color: rgb(16, 16, 16);
+  opacity: 0.7;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+.watch_all_button {
+  margin-top: 44px;
 }
