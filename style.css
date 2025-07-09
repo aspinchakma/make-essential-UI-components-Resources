@@ -26,6 +26,40 @@
   cursor: pointer;
 }
 
+/* common css style for icons */
+.icons {
+  font-size: 26px;
+  margin-top: 20px;
+}
+.icons a:first-child i {
+  background: linear-gradient(
+    180deg,
+    rgb(0, 178, 255) -0.911%,
+    rgb(0, 106, 255) 104.264%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icons a {
+  color: black;
+}
+.icons a:nth-child(3) i {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icons a:last-child i {
+  color: rgb(225, 49, 56);
+}
 /* Banner */
 .banner {
   height: 743px;
@@ -88,7 +122,7 @@
 /* Foods Section */
 .foods_container {
   width: 68.75%;
-  margin: 30px auto 0px;
+  margin: 70px auto 0px;
 }
 .foods_title {
   display: grid;
@@ -156,4 +190,57 @@
 }
 .watch_all_button {
   margin-top: 44px;
+}
+
+/* About us section */
+.about_us {
+  height: 597px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  margin-top: 60px;
+  height: 100%;
+}
+.about_us img {
+  width: 100%;
+}
+.about_us .about_details {
+  text-align: center;
+  margin-top: 134px;
+}
+.about_details_header {
+  width: 80%;
+  margin: 0px auto 0px;
+}
+.about_details .about_details_header .details-title {
+  color: rgb(16, 16, 16);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0%;
+}
+.about_details .about_details_header p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+  margin-top: 16px;
+}
+
+.about_details .follow_us {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+  margin-top: 30px;
+  padding: 18px 0px;
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
 }
