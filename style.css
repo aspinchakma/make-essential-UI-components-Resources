@@ -198,7 +198,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: center;
-  margin-top: 60px;
+  margin: 120px 0px;
   height: 100%;
 }
 .about_us img {
@@ -243,4 +243,56 @@
   padding: 18px 0px;
   border-top: 1px solid rgba(16, 16, 16, 0.2);
   border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+/* Social section */
+.social {
+  height: 521px;
+  background-image: url("assets/social-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.social .social_content {
+  width: 68.75%;
+  margin: 0px auto;
+  text-align: center;
+}
+.social_content > h2 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+  padding: 18px 0px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+  margin-top: 34px;
+}
+.social .social_header {
+  width: 60%;
+  margin: 0px auto;
+}
+.social .social_content .social_header > h2 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0%;
+  margin-bottom: 16px;
+}
+.social_header p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  opacity: 0.6;
 }
