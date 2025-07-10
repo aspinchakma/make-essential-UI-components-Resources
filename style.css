@@ -301,7 +301,7 @@
   --secondheader: 30px;
   --subtitle: 24px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .banner .banner_content {
     width: 90%;
   }
@@ -344,7 +344,6 @@
     align-content: center;
     margin: 60px 0px;
     height: 100%;
-    border: 1px solid black;
   }
 
   .about_us .about_details {
